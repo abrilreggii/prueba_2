@@ -1,0 +1,107 @@
+body{
+    background-image: url(../img/bg-body.png);
+}
+li{
+    list-style: none;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+/* BARRA DE REGISTARRSE DE ARRIBA */
+.menu-datos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu-datos ul li{
+    margin: 15px;
+}
+
+
+/* IMAGEN LOGO */
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-header img{
+    border-radius: 150px;
+    width: 150px;
+}
+
+/* BARRA DE ACCIONES */
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.main-nav ul li{
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+.main-conteiner{
+    margin: 0 auto;
+    width: 900px;
+   
+}
+
+/* IMAGEN BANNER */
+.Banner img{
+    width: 100%;
+}
+
+/* CONTENIDO */
+.contein{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin: 5px;
+}
+
+h2{
+    margin: 18px 0px 0px 0px;
+}
+
+h3{
+    background-color: #444;
+    color: white;
+    margin: 0px, 5px, 5px, 0px;
+    padding: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+
+/* FOOTER */
+.main-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(214, 32, 32);
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+.main-footer ul li{
+    margin: 15px;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+
+    
+
